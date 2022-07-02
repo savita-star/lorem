@@ -7,4 +7,4 @@ import { SharedModule } from '../shared/shared.module';
   declarations: [LoginComponent],
   imports: [LoginRoutingModule, SharedModule],
 })
-export class LoginModul
+export class LoginModule {}

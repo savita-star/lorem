@@ -15,4 +15,5 @@ export interface IProduct {
   price: number;
   productType: ProductType;
   isInStock: boolean;
+  image: string;
 }
