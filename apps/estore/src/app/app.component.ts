@@ -13,7 +13,8 @@ export class AppComponent implements OnInit {
 
   constructor(private http: HttpClient, private router: Router) {}
 
+  // eslint-disable-next-line @angular-eslint/no-empty-lifecycle-method
   ngOnInit(): void {
-    this.router.navigate(['/']);
+    // this.router.navigate(['/']);
   }
 }

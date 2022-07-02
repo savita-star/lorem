@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { NxWelcomeComponent } from './nx-welcome.component';
 import { HttpClientModule } from '@angular/common/http';
 import { LoginModule } from './login/login.module';
-import { RouterModule } from '@angular/router';
+import { CoreModule } from './core/core.module';
 
 @NgModule({
   declarations: [AppComponent, NxWelcomeComponent],
@@ -14,8 +14,8 @@ import { RouterModule } from '@angular/router';
     BrowserModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    RouterModule.forRoot([]),
     LoginModule,
+    CoreModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
