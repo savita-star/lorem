@@ -62,6 +62,7 @@
       },
       "defaultConfiguration": "development",
       "options": {
+        "open": true,
         "proxyConfig": "apps/estore/proxy.conf.json"
       }
     },

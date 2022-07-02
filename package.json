@@ -5,7 +5,8 @@
   "scripts": {
     "ng": "nx",
     "postinstall": "node ./decorate-angular-cli.js && ngcc --properties es2020 browser module main",
-    "start": "nx serve",
+    "start-api": "nx run api:serve",
+    "start-app": "nx run estore:serve",
     "build": "nx build",
     "test": "nx test"
   },
@@ -16,6 +17,8 @@
     "@angular/compiler": "~14.0.0",
     "@angular/core": "~14.0.0",
     "@angular/forms": "~14.0.0",
+    "@angular/material": "14.0.4",
+    "@angular/cdk": "14.0.4",
     "@angular/platform-browser": "~14.0.0",
     "@angular/platform-browser-dynamic": "~14.0.0",
     "@angular/router": "~14.0.0",
