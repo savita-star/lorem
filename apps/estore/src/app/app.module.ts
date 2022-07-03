@@ -4,9 +4,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
-import { LoginModule } from './login/login.module';
 import { CoreModule } from './core/core.module';
-import { ProductModule } from './product/product.module';
+import {AppRoutingModule} from "./app-routing.module";
 
 @NgModule({
   declarations: [AppComponent],
@@ -14,9 +13,8 @@ import { ProductModule } from './product/product.module';
     BrowserModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    LoginModule,
+    AppRoutingModule,
     CoreModule,
-    ProductModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
