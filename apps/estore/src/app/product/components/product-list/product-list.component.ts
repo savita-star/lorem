@@ -20,6 +20,33 @@ export class ProductListComponent implements OnInit {
       isInStock: true,
       image: '',
     },
+    {
+      id: '2',
+      brandName: 'LG',
+      description: 'Computer',
+      price: 100,
+      productType: ProductType.Computer,
+      isInStock: true,
+      image: '',
+    },
+    {
+      id: '3',
+      brandName: 'LG',
+      description: 'Computer',
+      price: 100,
+      productType: ProductType.Computer,
+      isInStock: true,
+      image: '',
+    },
+    {
+      id: '4',
+      brandName: 'LG',
+      description: 'Computer',
+      price: 100,
+      productType: ProductType.Computer,
+      isInStock: true,
+      image: '',
+    },
   ];
   constructor(private router: Router) {}
 
